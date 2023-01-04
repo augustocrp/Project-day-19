@@ -18,3 +18,5 @@ if __name__ == "__main__":
     for i in range(1, 26):
         nome_arquivo = os.path.join(OUTPUT_DIR, 'nota_de_aula_{}.pdf'.format(i))
         baixar_arquivo(BASE_URL.format(i), nome_arquivo)
+
+        
